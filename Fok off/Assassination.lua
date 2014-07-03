@@ -8,6 +8,9 @@ ProbablyEngine.rotation.register_custom(259, "~|cFFC41F3BNevoAssassin|r~", {
   
   {"Smoke bomb", "modifier.lalt"},
 
+{"#gloves", {
+	"player.combopoints >= 3",
+}},
 
  {"14185", { --Prep
  "modifier.cooldowns",
