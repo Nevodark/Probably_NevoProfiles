@@ -148,7 +148,9 @@ ProbablyEngine.rotation.register_custom(261, "~|cFFC41F3BNevoSub|r~", {
 "!player.buff(Shadow dance)"
 }},
 
-{"#gloves"},
+{"#gloves", {
+	"!player.spell(Shadow dance).cooldown <= 11 ",
+}},
 
 
 {"Preparation", {
