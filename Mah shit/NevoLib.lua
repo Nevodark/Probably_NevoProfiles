@@ -23,7 +23,7 @@ function Nevo.Pooling()
 			end
     local EndTime = select(7,UnitDebuff("target", GetSpellInfo(91021)))
     
-    if EndTime and Nevo.GetSpellCD(1856) <= 5 then --Vanish off cd or soon to be then pool bitch pool
+    if EndTime and Nevo.GetSpellCD(1856) <= 5 then --Vanish off cd or soon to be
         local Remaining = EndTime - GetTime()
         if Remaining <= 5 then --Find weakness 
             _Pooling = 36
@@ -32,7 +32,7 @@ function Nevo.Pooling()
     if Nevo.GetSpellCD(51713) < 5 then
         _Pooling = 43
     end
-	if UnitBuff("player", GetSpellInfo(51713)) then --SHADOW DANCE SPAM SHIT YOLO SWAG ALL THE 420 SNAP BACKS
+	if UnitBuff("player", GetSpellInfo(51713)) then --SHADOW DANCE SPAM SHIT 
 		_Pooling = 0
 		end
     
@@ -113,7 +113,7 @@ function Nevo.CPooling()
             end
     local EndTime = select(7,UnitDebuff("target", GetSpellInfo(91021)))
     
-    if EndTime and Nevo.GetSpellCD(1856) <= 5 then --Vanish off cd or soon to be then pool bitch pool
+    if EndTime and Nevo.GetSpellCD(1856) <= 5 then --Vanish off cd or soon to be 
         local Remaining = EndTime - GetTime()
         if Remaining <= 5 then --Find weakness 
             _Pooling = 35
@@ -122,7 +122,7 @@ function Nevo.CPooling()
     if Nevo.GetSpellCD(51713) < 5 then
         _Pooling = 40
     end
-    if UnitBuff("player", GetSpellInfo(51713)) then --SHADOW DANCE SPAM SHIT YOLO SWAG ALL THE 420 SNAP BACKS
+    if UnitBuff("player", GetSpellInfo(51713)) then --SHADOW DANCE SPAM SHIT 
         _Pooling = 0
         end
     
